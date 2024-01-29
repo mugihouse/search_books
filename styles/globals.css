@@ -7,3 +7,22 @@
     text-wrap: balance;
   }
 }
+
+.container {
+  margin: auto;
+  padding-top: 15%;
+}
+
+.container h1 {
+  text-align: center;
+}
+
+.form-container {
+  text-align: center;
+}
+
+input {
+  width: 500px;
+  height: 40px;
+  margin: 20px;
+}
