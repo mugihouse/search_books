@@ -10,7 +10,7 @@
 
 .container {
   margin: auto;
-  padding-top: 15%;
+  padding-top: 5%;
 }
 
 .container h1 {
@@ -25,4 +25,29 @@ input {
   width: 500px;
   height: 40px;
   margin: 20px;
+}
+.book-contents {
+  position: relative;
+  display: flex;
+  height: 200px;
+  width: 90%;
+  margin: 20px;
+}
+
+.img-container {
+  height: 100%;
+  float: left;
+  margin: 10%;
+}
+
+.img-item {
+  object-fit: contain;
+  position: relative !important;
+  width: auto !important;
+}
+
+.item-list-info {
+  position: absolute;
+  top: 0;
+  left: 40%;
 }
